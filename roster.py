@@ -1,3 +1,8 @@
+import pandas as pd
+
+
+
 roster = ["Elliot","Rj","Cormac"]
-for player in roster:
-    print(player)
+data = pd.DataFrame(roster)
+print(data)
+
